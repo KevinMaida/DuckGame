@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class DetectPlayer : MonoBehaviour {
-	//This class is attached to a child object of each enemy instance.
+	//This script is attached to a child object of each enemy instance.
 	//The purpose of this child object is to just detect if the player collides
 	//with it. If player collides with it the enemy
 	//will attack.
@@ -48,7 +48,7 @@ public class DetectPlayer : MonoBehaviour {
 			transform.localPosition = new Vector2(xPos, transform.localPosition.y);
 		}
 		//This if statement handles the enemy hands' animation. The hands animations and
-		//this class are attached to a child object of each enemy instance.
+		//this script are attached to a child object of each enemy instance.
 		if (gameObject.GetComponentInParent<Enemy>().attacking == true && parentNumber == gameObject.GetComponentInParent<Enemy>().who && animCount < 1 && GetComponentInParent<Enemy>().canHands == true) 
 		{
 			//animCount variable used to make sure hands attacking animation only plays once.
