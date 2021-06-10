@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Attack : MonoBehaviour {
 
-//This class is attached to a child object of the "enemy" game object.
+//This script is attached to a child object of the "enemy" game object.
 	public Animator a_Animator;
 	public SpriteRenderer HSR;
 	public int HFlipCount; // hand flip count
