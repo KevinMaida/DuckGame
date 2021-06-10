@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-//Class that attempts to use the iphone's gyroscope as a gameplay mechanic.
+//Script that attempts to use the iphone's gyroscope as a gameplay mechanic.
 public class GyroDuck : MonoBehaviour 
 {
 	public bool gyroEnabled;
